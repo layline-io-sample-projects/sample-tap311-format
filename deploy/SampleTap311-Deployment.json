@@ -1,0 +1,10 @@
+{
+  "@type" : "deploy/deployment",
+  "assetClass" : "deploy",
+  "assetType" : "deployment",
+  "uuid" : "a51c027d-70be-4900-a582-a4e11faca009",
+  "checksum" : "8c471e569269465b4d5e4bfebbaf38a14584c2862b60aa204c2119d843993068",
+  "name" : "SampleTap311-Deployment",
+  "engineConfig" : "cb871343-59cb-474a-ad2b-dff9c1f8e56b",
+  "schedulerSettings" : "e539413d-f14d-4dfd-a988-839e5cb2ef8f"
+}

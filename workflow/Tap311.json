@@ -1,0 +1,40 @@
+{
+  "@type" : "workflow",
+  "assetClass" : "workflow",
+  "assetType" : "workflow",
+  "uuid" : "a7409c63-ee5e-486e-8c32-e75c7b1dd679",
+  "checksum" : "ba342ab2cfb03ab8884ac1a2b234c594f47dec2d8e0f2fe8766a2f1cec034e8d",
+  "name" : "Tap311",
+  "weight" : 100,
+  "processorInput" : {
+    "modifier" : "add",
+    "uuid" : "b42af4fc-a8cc-4d9b-9f51-20f22577c34c",
+    "ref" : "9ceb0f8b-f971-4f26-afdc-06b9267fe4fb",
+    "loc" : {
+      "x" : 443.0,
+      "y" : 203.0
+    },
+    "links" : [
+      {
+        "modifier" : "add",
+        "uuid" : "c4bc3972-db1e-401f-ac48-2b4d32c3fed8",
+        "name" : "Tap3... -> Tap3...",
+        "sourcePort" : "4760a505-7e91-45ab-a040-fe06dd31232c",
+        "destNode" : "a6526a7b-5b6f-4722-8d1e-028d164a3048",
+        "destPort" : "1dc277ca-8fb2-416d-956a-e8eee8a74299"
+      }
+    ]
+  },
+  "processors" : [
+    {
+      "modifier" : "add",
+      "uuid" : "a6526a7b-5b6f-4722-8d1e-028d164a3048",
+      "ref" : "8a04d52d-195b-4fd8-8c6c-00f7c1df0c25",
+      "loc" : {
+        "x" : 744.0,
+        "y" : 203.0
+      },
+      "links" : null
+    }
+  ]
+}

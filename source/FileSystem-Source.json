@@ -1,0 +1,24 @@
+{
+  "@type" : "source/fileSystem",
+  "assetClass" : "source",
+  "assetType" : "fileSystem",
+  "uuid" : "2f7291a0-91fe-4ee5-9568-20d2dde810a9",
+  "checksum" : "d619cc61ccb256b298d2392c55ed720aa4242390e692c0b2a925e2fa9541d828",
+  "name" : "FileSystem-Source",
+  "pollingConfig" : {
+    "@type" : "source/pollable/polling/fixedRate",
+    "pollTimeout" : "60",
+    "ordering" : "ALPHABETICAL_ASC",
+    "interval" : "15"
+  },
+  "inputDirectory" : "${lay:dirIn}",
+  "doneDirectory" : "${lay:dirDone}",
+  "doneSuffix" : ".done",
+  "errorDirectory" : "${lay:dirError}",
+  "errorSuffix" : ".error",
+  "fileFilter" : {
+    "filterRegExpr" : ".*\\.ber",
+    "prefixRegExpr" : null,
+    "suffixRegExpr" : null
+  }
+}

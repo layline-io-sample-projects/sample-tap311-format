@@ -1,0 +1,23 @@
+{
+  "@type" : "deploy/engineConfig",
+  "assetClass" : "deploy",
+  "assetType" : "engineConfig",
+  "uuid" : "cb871343-59cb-474a-ad2b-dff9c1f8e56b",
+  "checksum" : "b7c61850a2464b54e9f0948bdf0ea64f9d29e9175ba107059a3a7a405e0410ac",
+  "name" : "SampleTap311-EngineConfig",
+  "tag" : "SampleTap311-${build:version}-${build:timestamp}",
+  "workflows" : [
+    {
+      "modifier" : "add",
+      "uuid" : "df3d8d79-c486-4a04-acd1-787ff6827f44",
+      "uuidRef" : "a7409c63-ee5e-486e-8c32-e75c7b1dd679"
+    }
+  ],
+  "environments" : [
+    {
+      "modifier" : "add",
+      "uuid" : "21fb333e-da9c-406b-8a80-ccd4376aa3e2",
+      "uuidRef" : "d2ebe8df-6081-41a3-9a4c-75b52dd511a7"
+    }
+  ]
+}

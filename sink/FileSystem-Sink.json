@@ -1,0 +1,9 @@
+{
+  "@type" : "sink/fileSystem",
+  "assetClass" : "sink",
+  "assetType" : "fileSystem",
+  "uuid" : "e5ef0bb8-7ca9-4073-88d6-b8c69c47f675",
+  "checksum" : "213fba75368290c0453c988c39b39a435cc7c361a7129199ecd9a57c332b12c3",
+  "name" : "FileSystem-Sink",
+  "outputDirectory" : "${lay:dirOut}"
+}

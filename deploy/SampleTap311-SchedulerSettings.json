@@ -1,0 +1,20 @@
+{
+  "@type" : "deploy/schedulerSettings",
+  "assetClass" : "deploy",
+  "assetType" : "schedulerSettings",
+  "uuid" : "e539413d-f14d-4dfd-a988-839e5cb2ef8f",
+  "checksum" : "1a31f1ff08c7c05fefd445df26ad57490ccf4e1968e433f7a8b424257fa70e84",
+  "name" : "SampleTap311-SchedulerSettings",
+  "workflows" : [
+    {
+      "uuid" : "edabd151-6700-4052-a6e8-4f680a1dfa63",
+      "modifier" : "add",
+      "workflowUuid" : "a7409c63-ee5e-486e-8c32-e75c7b1dd679",
+      "numberOfInstances" : 1,
+      "defaultNodeMinInstances" : null,
+      "defaultNodeMaxInstances" : null,
+      "roleLimits" : null,
+      "nodeLimits" : null
+    }
+  ]
+}
