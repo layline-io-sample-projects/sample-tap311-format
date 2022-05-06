@@ -3,7 +3,7 @@
   "assetClass" : "format",
   "assetType" : "asn1",
   "uuid" : "a79e9f5d-a973-45b3-9b44-f8d656938b9f",
-  "checksum" : "fb3a06f1fc3c7cc1aa726e1f4bf08dae627e6269aeeb38288133915777faf32c",
+  "checksum" : "4c1fdd28179432fe917dc83197b4e7b08ebdf6bc37551b5cd0853b71fb39f676",
   "name" : "Tap311-Format",
   "description" : "Definition of the Tap 3.11 ASN.1 format",
   "modules" : [
@@ -1463,7 +1463,7 @@
   "converters" : [
     {
       "modifier" : "add",
-      "uuid" : "29324aff-9940-459b-93b5-c03a5d2c9583",
+      "uuid" : "5a1babc4-40d1-4983-a7ee-2c1c6a556eca",
       "context" : "TAP-0311.BCDString",
       "definition" : "BerBcd"
     }

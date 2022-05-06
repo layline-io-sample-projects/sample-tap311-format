@@ -3,7 +3,7 @@
   "assetClass" : "processorInput",
   "assetType" : "stream",
   "uuid" : "9ceb0f8b-f971-4f26-afdc-06b9267fe4fb",
-  "checksum" : "59ba1f1c5e5d884d879d313db0920901204db205cd42a8ee09176c2126d69dc2",
+  "checksum" : "90bc4f446412fae5f3073f2f26bc866a315914b72ed4c292de23fb6bfcd47fed",
   "name" : "Tap311-In",
   "outputPort" : {
     "modifier" : "add",
@@ -11,6 +11,7 @@
     "name" : "Output-1",
     "description" : null
   },
+  "sourceUuid" : "2f7291a0-91fe-4ee5-9568-20d2dde810a9",
   "formatUuid" : "a79e9f5d-a973-45b3-9b44-f8d656938b9f",
   "isInstance" : true
 }

@@ -3,7 +3,7 @@
   "assetClass" : "processorOutput",
   "assetType" : "stream",
   "uuid" : "8a04d52d-195b-4fd8-8c6c-00f7c1df0c25",
-  "checksum" : "f45387671c68836953ba2e1100180e9854454de44fd8e523a7a785e1b19966bd",
+  "checksum" : "13fae029ddaf0069229bb218cf0faa872862c7f2cf6dc09cadb78f4248f2cdcf",
   "name" : "Tap311-Out",
   "inputPorts" : [
     {
@@ -14,6 +14,7 @@
     }
   ],
   "failureHandling" : { },
+  "sinkUuid" : "e5ef0bb8-7ca9-4073-88d6-b8c69c47f675",
   "formatUuid" : "a79e9f5d-a973-45b3-9b44-f8d656938b9f",
   "isInstance" : true
 }
